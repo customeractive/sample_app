@@ -1,13 +1,14 @@
 .container {
-  width: 710px;
+  width: 1000px;
 }
 
 body {
-  background: #cff;
+  background: white;
 }
 
 header {
   padding-top: 20px;
+
 }
 
 header img {
@@ -19,7 +20,7 @@ section {
   margin-top: 1em;
   font-size: 120%;
   padding: 20px;
-  background: #fff;
+  background: #ffc;
 }
 
 section h1 {
@@ -49,7 +50,7 @@ nav {
 }
 
 nav {
-  background-color: white;
+  background-color: #ffc;
   padding: 0 0.7em;
   white-space: nowrap;
 }

@@ -1,4 +1,12 @@
 SampleApp::Application.routes.draw do
+  get "trends/query"
+
+  get "statistics/overall"
+
+  get "statistics/query"
+
+  get "trends/latest"
+
   get "sessions/new"
 
   resources :users
@@ -15,6 +23,8 @@ root :to => "pages#home"
   match '/about',   :to => 'pages#about'
   match '/help',    :to => 'pages#help'
   match '/signup',    :to => 'users#new'
+  match '/trends',   :to => 'trends#latest'
+  match '/statistics', :to => 'statistics#overall'
  
  get "pages/home"
 
